@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #FFE4E6;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  background-color: #FFE4E6;
+  border: 2px dashed #F8B7C0;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5em;
+  color: #A61C3A;
+  margin-bottom: 20px;
+}
+
+.image-placeholder {
+  width: 200px;
+  height: 200px;
+  border: 2px dashed #A61C3A;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  background-color: #FFF;
+}
+
+.image-content {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  background-color: #FFF;
+}
+
+.text p {
+  font-size: 1.2em;
+  color: #A61C3A;
+  margin: 10px 0;
+}
+
+.message-box {
+  background-color: #FFFFFF;
+  color: #A61C3A;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signature {
+  font-size: 1.2em;
+  color: #A61C3A;
+  margin-top: 10px;
+}
+
+.button {
+  display: inline-block;
+  font-size: 1.2em;
+  color: #A61C3A;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid #A61C3A;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #A61C3A;
+  color: #FFF;
+}
+
+@media (max-width: 600px) {
+  h1 {
+      font-size: 2em;
+  }
+  .image-placeholder {
+      width: 150px;
+      height: 150px;
+  }
+
+  .image-content {
+    width: 150px;
+    height: 150px;
+  }
+  .text p, .signature, .button {
+      font-size: 1em;
+  }
+  .message-box {
+      width: 90%;
+  }
+  .container {
+      width: 95%;
+      padding: 15px;
+  }
+}
